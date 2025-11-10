@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Suas credenciais do arquivo .env.local
 const firebaseConfig = {
-  apiKey: process.env.AIzaSyAmfA7FtsY9eH6wFv7sYQekVVhpFTwFkQQ,
-  authDomain: process.env.precos-salinas.firebaseapp.com,
-  projectId: process.env.precos-salinas,
-  storageBucket: process.env.precos-salinas.firebasestorage.app,
-  messagingSenderId: process.env.194960227301,
-  appId: process.env.1:194960227301:web:a437e83f0bd52a7f344d0c,
+  apiKey: "AIzaSyAmfA7FtsY9eH6wFv7sYQekVVhpFTwFkQQ",
+  authDomain: "precos-salinas.firebaseapp.com",
+  projectId: "precos-salinas",
+  storageBucket: "precos-salinas.firebasestorage.app",
+  messagingSenderId: "194960227301",
+  appId: "1:194960227301:web:a437e83f0bd52a7f344d0c"
 };
 
 // Inicializa o Firebase
