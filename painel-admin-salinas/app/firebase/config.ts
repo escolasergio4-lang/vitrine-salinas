@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Suas credenciais do arquivo .env.local
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: process.env.AIzaSyAmfA7FtsY9eH6wFv7sYQekVVhpFTwFkQQ,
+  authDomain: process.env.precos-salinas.firebaseapp.com,
+  projectId: process.env.precos-salinas,
+  storageBucket: process.env.precos-salinas.firebasestorage.app,
+  messagingSenderId: process.env.194960227301,
+  appId: process.env.1:194960227301:web:a437e83f0bd52a7f344d0c,
 };
 
 // Inicializa o Firebase (de forma segura para o Next.js)
