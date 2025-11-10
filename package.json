@@ -1,0 +1,17 @@
+{
+  "name": "preco-bom-salinas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:admin": "cd painel-admin-salinas && npm run dev",
+    "dev:vitrine": "cd vitrine-salinas && npm run dev",
+    "build:admin": "cd painel-admin-salinas && npm run build",
+    "build:vitrine": "cd vitrine-salinas && npm run build",
+    "install:all": "cd painel-admin-salinas && npm install && cd ../vitrine-salinas && npm install",
+    "setup": "npm run install:all && npm run setup:env",
+    "setup:env": "cp painel-admin-salinas/.env.example painel-admin-salinas/.env.local 2>/dev/null || true && cp vitrine-salinas/.env.example vitrine-salinas/.env.local 2>/dev/null || true && echo 'Arquivos .env.local criados! Configure suas credenciais Firebase.'"
+  },
+  "dependencies": {
+    "firebase": "^12.5.0"
+  }
+}
